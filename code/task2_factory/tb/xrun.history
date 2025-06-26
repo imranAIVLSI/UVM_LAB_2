@@ -77,3 +77,10 @@ s76(26Jun2025:14:12:15):  xrun -f file.f +SVSEED=random
 s77(26Jun2025:14:13:33):  xrun -f file.f +SVSEED=random 
 s78(26Jun2025:14:13:55):  xrun -f file.f +SVSEED=random 
 s79(26Jun2025:14:14:33):  xrun -f file.f +SVSEED=random 
+s80(26Jun2025:17:09:55):  xrun -f file.f 
+s81(26Jun2025:17:26:07):  xrun -f file.f 
+s82(26Jun2025:17:34:41):  xrun -f file.f 
+s83(26Jun2025:17:35:35):  xrun -f file.f 
+s84(26Jun2025:17:36:10):  xrun -f file.f 
+s85(26Jun2025:17:38:00):  xrun -f file.f 
+s86(26Jun2025:17:41:01):  xrun -f file.f 

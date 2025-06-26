@@ -3,7 +3,6 @@
 // Do not modify this file
 //
 +UVM_VERBOSITY=UVM_LOW
-+SVSEED=random
 -loadpli
 /home/cc/mnt/XCELIUM2309/tools/methodology/UVM/CDNS-1.1d/additions/sv/lib/64bit/libuvmpli.so:uvm_pli_boot
 +UVM_TESTNAME=set_config_test

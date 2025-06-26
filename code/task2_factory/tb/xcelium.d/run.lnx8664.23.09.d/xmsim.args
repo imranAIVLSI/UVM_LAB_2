@@ -4,15 +4,12 @@
 //
 -INPUT
 "@source /home/cc/mnt/XCELIUM2309/tools/methodology/UVM/CDNS-1.1d/additions/sv/files/tcl/uvm_sim.tcl"
-+UVM_VERBOSITY=UVM_LOW
-+SVSEED=random
++UVM_VERBOSITY=UVM_HIGH
 -uvmhome
 /home/cc/mnt/XCELIUM2309/tools/methodology/UVM/CDNS-1.1d
 -sv_lib
 /home/cc/mnt/XCELIUM2309/tools/methodology/UVM/CDNS-1.1d/additions/sv/lib/64bit/libuvmpli.so
 +UVM_TESTNAME=set_config_test
--SVSEED
-random
 -MESSAGES
 -RUN
 -SV_LIB
@@ -20,7 +17,7 @@ random
 +EMGRLOG
 xrun.log
 -XLSTIME
-1750929273
+1750941661
 -XLKEEP
 -XLMODE
 ./xcelium.d/run.lnx8664.23.09.d

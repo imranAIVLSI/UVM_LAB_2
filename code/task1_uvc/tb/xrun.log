@@ -1,5 +1,5 @@
 xrun(64): 23.09-s006: (c) Copyright 1995-2024 Cadence Design Systems, Inc.
-TOOL:	xrun(64)	23.09-s006: Started on Jun 26, 2025 at 09:21:38 PKT
+TOOL:	xrun(64)	23.09-s006: Started on Jun 26, 2025 at 16:53:27 PKT
 xrun
 	-f file.f
 		-64
@@ -10,7 +10,6 @@ xrun
 		top.sv
 		+UVM_TESTNAME=base_test
 		+UVM_VERBOSITY=UVM_HIGH
-	+SVSEED=random
 
    User defined plus("+") options:
 	+UVM_VERBOSITY=UVM_HIGH
@@ -195,6 +194,157 @@ xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,14): cds.
 DEFINE cds_amsfunctions ./CDS_AMSFUNCTIONS
 |
 xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,15): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_AMSFUNCTIONS' (cds.lib command ignored).
+Recompiling... reason: file './router_test_lib.sv' is newer than expected.
+	expected: Thu Jun 26 16:51:45 2025
+	actual:   Thu Jun 26 16:53:24 2025
+DEFINE std       ./STD
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,1): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/STD' (cds.lib command ignored).
+DEFINE synopsys  ./SYNOPSYS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,2): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/SYNOPSYS' (cds.lib command ignored).
+DEFINE ieee      ./IEEE
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,3): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/IEEE' (cds.lib command ignored).
+DEFINE ambit     ./AMBIT
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,4): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/AMBIT' (cds.lib command ignored).
+DEFINE vital_memory ./VITAL_MEMORY
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,5): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/VITAL_MEMORY' (cds.lib command ignored).
+DEFINE ncutils ./NCUTILS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,6): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCUTILS' (cds.lib command ignored).
+DEFINE ncinternal ./NCINTERNAL
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,7): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCINTERNAL' (cds.lib command ignored).
+DEFINE ncmodels ./NCMODELS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,8): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCMODELS' (cds.lib command ignored).
+DEFINE xmutils ./XMUTILS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,9): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMUTILS' (cds.lib command ignored).
+DEFINE xminternal ./XMINTERNAL
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,10): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMINTERNAL' (cds.lib command ignored).
+DEFINE xmmodels ./XMMODELS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,11): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMMODELS' (cds.lib command ignored).
+DEFINE cds_assertions ./CDS_ASSERTIONS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,12): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_ASSERTIONS' (cds.lib command ignored).
+DEFINE cds_inhconn ./CDS_INHCONN
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,13): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_INHCONN' (cds.lib command ignored).
+DEFINE cds_spicelib ./CDS_SPICELIB
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,14): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_SPICELIB' (cds.lib command ignored).
+DEFINE cds_amsfunctions ./CDS_AMSFUNCTIONS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,15): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_AMSFUNCTIONS' (cds.lib command ignored).
+Compiling UVM packages (uvm_pkg.sv cdns_uvm_pkg.sv) using uvmhome location /home/cc/mnt/XCELIUM2309/tools/methodology/UVM/CDNS-1.1d
+DEFINE std       ./STD
+|
+xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,1): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/STD' (cds.lib command ignored).
+DEFINE synopsys  ./SYNOPSYS
+|
+xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,2): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/SYNOPSYS' (cds.lib command ignored).
+DEFINE ieee      ./IEEE
+|
+xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,3): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/IEEE' (cds.lib command ignored).
+DEFINE ambit     ./AMBIT
+|
+xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,4): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/AMBIT' (cds.lib command ignored).
+DEFINE vital_memory ./VITAL_MEMORY
+|
+xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,5): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/VITAL_MEMORY' (cds.lib command ignored).
+DEFINE ncutils ./NCUTILS
+|
+xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,6): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCUTILS' (cds.lib command ignored).
+DEFINE ncinternal ./NCINTERNAL
+|
+xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,7): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCINTERNAL' (cds.lib command ignored).
+DEFINE ncmodels ./NCMODELS
+|
+xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,8): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCMODELS' (cds.lib command ignored).
+DEFINE xmutils ./XMUTILS
+|
+xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,9): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMUTILS' (cds.lib command ignored).
+DEFINE xminternal ./XMINTERNAL
+|
+xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,10): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMINTERNAL' (cds.lib command ignored).
+DEFINE xmmodels ./XMMODELS
+|
+xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,11): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMMODELS' (cds.lib command ignored).
+DEFINE cds_assertions ./CDS_ASSERTIONS
+|
+xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,12): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_ASSERTIONS' (cds.lib command ignored).
+DEFINE cds_inhconn ./CDS_INHCONN
+|
+xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,13): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_INHCONN' (cds.lib command ignored).
+DEFINE cds_spicelib ./CDS_SPICELIB
+|
+xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,14): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_SPICELIB' (cds.lib command ignored).
+DEFINE cds_amsfunctions ./CDS_AMSFUNCTIONS
+|
+xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,15): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_AMSFUNCTIONS' (cds.lib command ignored).
+DEFINE std       ./STD
+|
+xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,1): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/STD' (cds.lib command ignored).
+DEFINE synopsys  ./SYNOPSYS
+|
+xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,2): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/SYNOPSYS' (cds.lib command ignored).
+DEFINE ieee      ./IEEE
+|
+xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,3): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/IEEE' (cds.lib command ignored).
+DEFINE ambit     ./AMBIT
+|
+xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,4): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/AMBIT' (cds.lib command ignored).
+DEFINE vital_memory ./VITAL_MEMORY
+|
+xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,5): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/VITAL_MEMORY' (cds.lib command ignored).
+DEFINE ncutils ./NCUTILS
+|
+xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,6): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCUTILS' (cds.lib command ignored).
+DEFINE ncinternal ./NCINTERNAL
+|
+xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,7): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCINTERNAL' (cds.lib command ignored).
+DEFINE ncmodels ./NCMODELS
+|
+xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,8): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCMODELS' (cds.lib command ignored).
+DEFINE xmutils ./XMUTILS
+|
+xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,9): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMUTILS' (cds.lib command ignored).
+DEFINE xminternal ./XMINTERNAL
+|
+xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,10): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMINTERNAL' (cds.lib command ignored).
+DEFINE xmmodels ./XMMODELS
+|
+xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,11): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMMODELS' (cds.lib command ignored).
+DEFINE cds_assertions ./CDS_ASSERTIONS
+|
+xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,12): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_ASSERTIONS' (cds.lib command ignored).
+DEFINE cds_inhconn ./CDS_INHCONN
+|
+xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,13): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_INHCONN' (cds.lib command ignored).
+DEFINE cds_spicelib ./CDS_SPICELIB
+|
+xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,14): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_SPICELIB' (cds.lib command ignored).
+DEFINE cds_amsfunctions ./CDS_AMSFUNCTIONS
+|
+xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,15): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_AMSFUNCTIONS' (cds.lib command ignored).
+file: ../sv/yapp_pkg.sv
+package yapp_pkg;
+               |
+xmvlog: *W,TSNSPK (../sv/yapp_pkg.sv,1|15): `timescale is not specified for the package.  The default timescale of 1ns/1ns will be assumed for this package.
+file: top.sv
+    `uvm_component_utils(test2);
+                               |
+xmvlog: *W,UEXPSC (router_test_lib.sv,24|31): Ignored unexpected semicolon following SystemVerilog description keyword (endfunction).
+	module worklib.top:sv
+		errors: 0, warnings: 1
+	Total errors/warnings found outside modules and primitives:
+		errors: 0, warnings: 15
 DEFINE std       ./STD
 |
 xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,1): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/STD' (cds.lib command ignored).
@@ -285,6 +435,123 @@ xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,14): cds.
 DEFINE cds_amsfunctions ./CDS_AMSFUNCTIONS
 |
 xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,15): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_AMSFUNCTIONS' (cds.lib command ignored).
+DEFINE std       ./STD
+|
+xmelab: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,1): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/STD' (cds.lib command ignored).
+DEFINE synopsys  ./SYNOPSYS
+|
+xmelab: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,2): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/SYNOPSYS' (cds.lib command ignored).
+DEFINE ieee      ./IEEE
+|
+xmelab: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,3): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/IEEE' (cds.lib command ignored).
+DEFINE ambit     ./AMBIT
+|
+xmelab: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,4): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/AMBIT' (cds.lib command ignored).
+DEFINE vital_memory ./VITAL_MEMORY
+|
+xmelab: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,5): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/VITAL_MEMORY' (cds.lib command ignored).
+DEFINE ncutils ./NCUTILS
+|
+xmelab: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,6): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCUTILS' (cds.lib command ignored).
+DEFINE ncinternal ./NCINTERNAL
+|
+xmelab: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,7): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCINTERNAL' (cds.lib command ignored).
+DEFINE ncmodels ./NCMODELS
+|
+xmelab: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,8): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCMODELS' (cds.lib command ignored).
+DEFINE xmutils ./XMUTILS
+|
+xmelab: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,9): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMUTILS' (cds.lib command ignored).
+DEFINE xminternal ./XMINTERNAL
+|
+xmelab: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,10): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMINTERNAL' (cds.lib command ignored).
+DEFINE xmmodels ./XMMODELS
+|
+xmelab: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,11): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMMODELS' (cds.lib command ignored).
+DEFINE cds_assertions ./CDS_ASSERTIONS
+|
+xmelab: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,12): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_ASSERTIONS' (cds.lib command ignored).
+DEFINE cds_inhconn ./CDS_INHCONN
+|
+xmelab: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,13): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_INHCONN' (cds.lib command ignored).
+DEFINE cds_spicelib ./CDS_SPICELIB
+|
+xmelab: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,14): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_SPICELIB' (cds.lib command ignored).
+DEFINE cds_amsfunctions ./CDS_AMSFUNCTIONS
+|
+xmelab: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,15): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_AMSFUNCTIONS' (cds.lib command ignored).
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		uvm_pkg
+		cdns_uvmapi
+		cdns_assert2uvm_pkg
+		cdns_uvm_pkg
+		yapp_pkg
+		top
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+DEFINE std       ./STD
+|
+xmvlog_cg: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,1): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/STD' (cds.lib command ignored).
+DEFINE synopsys  ./SYNOPSYS
+|
+xmvlog_cg: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,2): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/SYNOPSYS' (cds.lib command ignored).
+DEFINE ieee      ./IEEE
+|
+xmvlog_cg: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,3): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/IEEE' (cds.lib command ignored).
+DEFINE ambit     ./AMBIT
+|
+xmvlog_cg: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,4): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/AMBIT' (cds.lib command ignored).
+DEFINE vital_memory ./VITAL_MEMORY
+|
+xmvlog_cg: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,5): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/VITAL_MEMORY' (cds.lib command ignored).
+DEFINE ncutils ./NCUTILS
+|
+xmvlog_cg: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,6): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCUTILS' (cds.lib command ignored).
+DEFINE ncinternal ./NCINTERNAL
+|
+xmvlog_cg: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,7): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCINTERNAL' (cds.lib command ignored).
+DEFINE ncmodels ./NCMODELS
+|
+xmvlog_cg: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,8): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCMODELS' (cds.lib command ignored).
+DEFINE xmutils ./XMUTILS
+|
+xmvlog_cg: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,9): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMUTILS' (cds.lib command ignored).
+DEFINE xminternal ./XMINTERNAL
+|
+xmvlog_cg: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,10): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMINTERNAL' (cds.lib command ignored).
+DEFINE xmmodels ./XMMODELS
+|
+xmvlog_cg: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,11): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMMODELS' (cds.lib command ignored).
+DEFINE cds_assertions ./CDS_ASSERTIONS
+|
+xmvlog_cg: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,12): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_ASSERTIONS' (cds.lib command ignored).
+DEFINE cds_inhconn ./CDS_INHCONN
+|
+xmvlog_cg: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,13): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_INHCONN' (cds.lib command ignored).
+DEFINE cds_spicelib ./CDS_SPICELIB
+|
+xmvlog_cg: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,14): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_SPICELIB' (cds.lib command ignored).
+DEFINE cds_amsfunctions ./CDS_AMSFUNCTIONS
+|
+xmvlog_cg: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,15): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_AMSFUNCTIONS' (cds.lib command ignored).
+		worklib.top:sv <0x1cfa80bf>
+			streams:  62, words: 39932
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                       Instances  Unique
+		Modules:                       1       1
+		Verilog packages:              5       5
+		Registers:                 13699   10212
+		Named events:                  4      12
+		Initial blocks:              286     156
+		Parallel blocks:              26      27
+		Assertions:                    2       2
+		SV Class declarations:       200     314
+		SV Class specializations:    380     380
+	Writing initial simulation snapshot: worklib.top:sv
 DEFINE std       ./STD
 |
 xmsim: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,1): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/STD' (cds.lib command ignored).
@@ -331,7 +598,7 @@ DEFINE cds_amsfunctions ./CDS_AMSFUNCTIONS
 |
 xmsim: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,15): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_AMSFUNCTIONS' (cds.lib command ignored).
 Loading snapshot worklib.top:sv .................... Done
-SVSEED set randomly from command line: -1931335470
+SVSEED default: 1
 xcelium> source /home/cc/mnt/XCELIUM2309/tools/xcelium/files/xmsimrc
 xcelium> source /home/cc/mnt/XCELIUM2309/tools/methodology/UVM/CDNS-1.1d/additions/sv/files/tcl/uvm_sim.tcl
 xcelium> run
@@ -362,17 +629,17 @@ UVM_INFO @ 0: reporter [UVMTOP] UVM testbench topology:
 ----------------------------------------------------------------------
 Name                         Type                     Size  Value     
 ----------------------------------------------------------------------
-uvm_test_top                 base_test                -     @2583     
-  tb                         router_tb                -     @2647     
-    YAPP                     yapp_env                 -     @2687     
-      agent                  yapp_tx_agent            -     @2721     
-        driver               yapp_tx_driver           -     @3430     
-          rsp_port           uvm_analysis_port        -     @3528     
-          seq_item_port      uvm_seq_item_pull_port   -     @3479     
-        monitor              yapp_tx_monitor          -     @2760     
-        sequencer            yapp_tx_sequencer        -     @2757     
-          rsp_export         uvm_analysis_export      -     @2848     
-          seq_item_export    uvm_seq_item_pull_imp    -     @3398     
+uvm_test_top                 base_test                -     @2582     
+  tb                         router_tb                -     @2646     
+    YAPP                     yapp_env                 -     @2686     
+      agent                  yapp_tx_agent            -     @2720     
+        driver               yapp_tx_driver           -     @3429     
+          rsp_port           uvm_analysis_port        -     @3527     
+          seq_item_port      uvm_seq_item_pull_port   -     @3478     
+        monitor              yapp_tx_monitor          -     @2759     
+        sequencer            yapp_tx_sequencer        -     @2756     
+          rsp_export         uvm_analysis_export      -     @2847     
+          seq_item_export    uvm_seq_item_pull_imp    -     @3397     
           arbitration_queue  array                    0     -         
           lock_queue         array                    0     -         
           num_last_reqs      integral                 32    'd1       
@@ -380,7 +647,7 @@ uvm_test_top                 base_test                -     @2583
         is_active            uvm_active_passive_enum  1     UVM_ACTIVE
 ----------------------------------------------------------------------
 
-UVM_INFO ../sv/yapp_tx_driver.sv(25) @ 0: uvm_test_top.tb.YAPP.agent.driver [yapp_tx_driver] Running Simulation...
+UVM_INFO ../sv/yapp_tx_driver.sv(22) @ 0: uvm_test_top.tb.YAPP.agent.driver [yapp_tx_driver] Running Simulation...
 UVM_INFO ../sv/yapp_tx_monitor.sv(13) @ 0: uvm_test_top.tb.YAPP.agent.monitor [yapp_tx_monitor] Running Simulation...
 UVM_INFO ../sv/yapp_tx_sequencer.sv(9) @ 0: uvm_test_top.tb.YAPP.agent.sequencer [yapp_tx_sequencer] Running Simulation...
 UVM_INFO ../sv/yapp_tx_agent.sv(29) @ 0: uvm_test_top.tb.YAPP.agent [yapp_tx_agent] Running Simulation...
@@ -389,20 +656,26 @@ UVM_INFO router_tb.sv(16) @ 0: uvm_test_top.tb [router_tb] Running Simulation...
 UVM_INFO ../sv/yapp_tx_monitor.sv(9) @ 0: uvm_test_top.tb.YAPP.agent.monitor [Run Phase] You are in the Monitor
 UVM_INFO ../sv/yapp_tx_seqs.sv(21) @ 0: uvm_test_top.tb.YAPP.agent.sequencer@@yapp_5_packets [yapp_5_packets] raise objection
 UVM_INFO ../sv/yapp_tx_seqs.sv(65) @ 0: uvm_test_top.tb.YAPP.agent.sequencer@@yapp_5_packets [yapp_5_packets] Executing yapp_5_packets sequence
-UVM_INFO ../sv/yapp_tx_driver.sv(21) @ 10: uvm_test_top.tb.YAPP.agent.driver [yap_packet] Packet is 
+UVM_INFO ../sv/yapp_tx_driver.sv(18) @ 10: uvm_test_top.tb.YAPP.agent.driver [yap_packet] Packet is 
 -------------------------------------------------------------------------------------------------------
 Name                           Type           Size  Value                                              
 -------------------------------------------------------------------------------------------------------
-req                            yapp_packet    -     @3658                                              
-  payload                      da(integral)   5     -                                                  
-    [0]                        integral       8     'hab                                               
-    [1]                        integral       8     'hfa                                               
-    [2]                        integral       8     'hb7                                               
-    [3]                        integral       8     'h8c                                               
-    [4]                        integral       8     'h2e                                               
+req                            yapp_packet    -     @3657                                              
+  payload                      da(integral)   44    -                                                  
+    [0]                        integral       8     'he9                                               
+    [1]                        integral       8     'ha0                                               
+    [2]                        integral       8     'h14                                               
+    [3]                        integral       8     'ha1                                               
+    [4]                        integral       8     'h4e                                               
+    ...                        ...            ...   ...                                                
+    [39]                       integral       8     'h68                                               
+    [40]                       integral       8     'he8                                               
+    [41]                       integral       8     'h82                                               
+    [42]                       integral       8     'hdf                                               
+    [43]                       integral       8     'ha7                                               
   parity                       integral       8     'b0                                                
-  parity_type                  parity_type_e  1     GOOD_PARITY                                        
-  packet_delay                 integral       32    'h14                                               
+  parity_type                  parity_type_e  1     BAD_PARITY                                         
+  packet_delay                 integral       32    'hb                                                
   begin_time                   time           64    0                                                  
   depth                        int            32    'd2                                                
   parent sequence (name)       string         14    yapp_5_packets                                     
@@ -410,26 +683,26 @@ req                            yapp_packet    -     @3658
   sequencer                    string         36    uvm_test_top.tb.YAPP.agent.sequencer               
 -------------------------------------------------------------------------------------------------------
 
-UVM_INFO ../sv/yapp_tx_driver.sv(21) @ 20: uvm_test_top.tb.YAPP.agent.driver [yap_packet] Packet is 
+UVM_INFO ../sv/yapp_tx_driver.sv(18) @ 20: uvm_test_top.tb.YAPP.agent.driver [yap_packet] Packet is 
 -------------------------------------------------------------------------------------------------------
 Name                           Type           Size  Value                                              
 -------------------------------------------------------------------------------------------------------
-req                            yapp_packet    -     @3740                                              
-  payload                      da(integral)   13    -                                                  
-    [0]                        integral       8     'hc7                                               
-    [1]                        integral       8     'h7f                                               
-    [2]                        integral       8     'h9                                                
-    [3]                        integral       8     'h17                                               
-    [4]                        integral       8     'h7e                                               
+req                            yapp_packet    -     @3764                                              
+  payload                      da(integral)   52    -                                                  
+    [0]                        integral       8     'h5                                                
+    [1]                        integral       8     'h25                                               
+    [2]                        integral       8     'h66                                               
+    [3]                        integral       8     'h2c                                               
+    [4]                        integral       8     'h9f                                               
     ...                        ...            ...   ...                                                
-    [8]                        integral       8     'h13                                               
-    [9]                        integral       8     'hb7                                               
-    [10]                       integral       8     'ha1                                               
-    [11]                       integral       8     'h5c                                               
-    [12]                       integral       8     'h17                                               
+    [47]                       integral       8     'h77                                               
+    [48]                       integral       8     'h12                                               
+    [49]                       integral       8     'h57                                               
+    [50]                       integral       8     'hab                                               
+    [51]                       integral       8     'hcd                                               
   parity                       integral       8     'b0                                                
   parity_type                  parity_type_e  1     GOOD_PARITY                                        
-  packet_delay                 integral       32    'h1                                                
+  packet_delay                 integral       32    'h7                                                
   begin_time                   time           64    10                                                 
   depth                        int            32    'd2                                                
   parent sequence (name)       string         14    yapp_5_packets                                     
@@ -437,26 +710,26 @@ req                            yapp_packet    -     @3740
   sequencer                    string         36    uvm_test_top.tb.YAPP.agent.sequencer               
 -------------------------------------------------------------------------------------------------------
 
-UVM_INFO ../sv/yapp_tx_driver.sv(21) @ 30: uvm_test_top.tb.YAPP.agent.driver [yap_packet] Packet is 
+UVM_INFO ../sv/yapp_tx_driver.sv(18) @ 30: uvm_test_top.tb.YAPP.agent.driver [yap_packet] Packet is 
 -------------------------------------------------------------------------------------------------------
 Name                           Type           Size  Value                                              
 -------------------------------------------------------------------------------------------------------
-req                            yapp_packet    -     @3777                                              
-  payload                      da(integral)   23    -                                                  
-    [0]                        integral       8     'h9b                                               
-    [1]                        integral       8     'hd0                                               
-    [2]                        integral       8     'h26                                               
-    [3]                        integral       8     'h8b                                               
-    [4]                        integral       8     'ha4                                               
+req                            yapp_packet    -     @3776                                              
+  payload                      da(integral)   17    -                                                  
+    [0]                        integral       8     'h77                                               
+    [1]                        integral       8     'h83                                               
+    [2]                        integral       8     'ha0                                               
+    [3]                        integral       8     'hc4                                               
+    [4]                        integral       8     'h67                                               
     ...                        ...            ...   ...                                                
-    [18]                       integral       8     'h89                                               
-    [19]                       integral       8     'h64                                               
-    [20]                       integral       8     'h35                                               
-    [21]                       integral       8     'h7b                                               
-    [22]                       integral       8     'h6a                                               
+    [12]                       integral       8     'h63                                               
+    [13]                       integral       8     'hcb                                               
+    [14]                       integral       8     'hf1                                               
+    [15]                       integral       8     'h55                                               
+    [16]                       integral       8     'hdc                                               
   parity                       integral       8     'b0                                                
   parity_type                  parity_type_e  1     GOOD_PARITY                                        
-  packet_delay                 integral       32    'ha                                                
+  packet_delay                 integral       32    'h8                                                
   begin_time                   time           64    20                                                 
   depth                        int            32    'd2                                                
   parent sequence (name)       string         14    yapp_5_packets                                     
@@ -464,26 +737,26 @@ req                            yapp_packet    -     @3777
   sequencer                    string         36    uvm_test_top.tb.YAPP.agent.sequencer               
 -------------------------------------------------------------------------------------------------------
 
-UVM_INFO ../sv/yapp_tx_driver.sv(21) @ 40: uvm_test_top.tb.YAPP.agent.driver [yap_packet] Packet is 
+UVM_INFO ../sv/yapp_tx_driver.sv(18) @ 40: uvm_test_top.tb.YAPP.agent.driver [yap_packet] Packet is 
 -------------------------------------------------------------------------------------------------------
 Name                           Type           Size  Value                                              
 -------------------------------------------------------------------------------------------------------
-req                            yapp_packet    -     @3659                                              
-  payload                      da(integral)   42    -                                                  
-    [0]                        integral       8     'h4f                                               
-    [1]                        integral       8     'h96                                               
-    [2]                        integral       8     'ha8                                               
-    [3]                        integral       8     'hbe                                               
-    [4]                        integral       8     'h39                                               
+req                            yapp_packet    -     @3658                                              
+  payload                      da(integral)   44    -                                                  
+    [0]                        integral       8     'h1b                                               
+    [1]                        integral       8     'h7c                                               
+    [2]                        integral       8     'had                                               
+    [3]                        integral       8     'h9c                                               
+    [4]                        integral       8     'h12                                               
     ...                        ...            ...   ...                                                
-    [37]                       integral       8     'h8c                                               
-    [38]                       integral       8     'hbe                                               
-    [39]                       integral       8     'h9d                                               
-    [40]                       integral       8     'h84                                               
-    [41]                       integral       8     'h9f                                               
+    [39]                       integral       8     'h20                                               
+    [40]                       integral       8     'h0                                                
+    [41]                       integral       8     'h6a                                               
+    [42]                       integral       8     'h45                                               
+    [43]                       integral       8     'hc9                                               
   parity                       integral       8     'b0                                                
-  parity_type                  parity_type_e  1     GOOD_PARITY                                        
-  packet_delay                 integral       32    'ha                                                
+  parity_type                  parity_type_e  1     BAD_PARITY                                         
+  packet_delay                 integral       32    'h14                                               
   begin_time                   time           64    30                                                 
   depth                        int            32    'd2                                                
   parent sequence (name)       string         14    yapp_5_packets                                     
@@ -491,26 +764,26 @@ req                            yapp_packet    -     @3659
   sequencer                    string         36    uvm_test_top.tb.YAPP.agent.sequencer               
 -------------------------------------------------------------------------------------------------------
 
-UVM_INFO ../sv/yapp_tx_driver.sv(21) @ 50: uvm_test_top.tb.YAPP.agent.driver [yap_packet] Packet is 
+UVM_INFO ../sv/yapp_tx_driver.sv(18) @ 50: uvm_test_top.tb.YAPP.agent.driver [yap_packet] Packet is 
 -------------------------------------------------------------------------------------------------------
 Name                           Type           Size  Value                                              
 -------------------------------------------------------------------------------------------------------
-req                            yapp_packet    -     @3739                                              
-  payload                      da(integral)   38    -                                                  
-    [0]                        integral       8     'hd1                                               
-    [1]                        integral       8     'h50                                               
-    [2]                        integral       8     'hed                                               
-    [3]                        integral       8     'h70                                               
-    [4]                        integral       8     'h83                                               
+req                            yapp_packet    -     @3763                                              
+  payload                      da(integral)   14    -                                                  
+    [0]                        integral       8     'hec                                               
+    [1]                        integral       8     'h77                                               
+    [2]                        integral       8     'hac                                               
+    [3]                        integral       8     'h1                                                
+    [4]                        integral       8     'h91                                               
     ...                        ...            ...   ...                                                
-    [33]                       integral       8     'h5d                                               
-    [34]                       integral       8     'h41                                               
-    [35]                       integral       8     'hfb                                               
-    [36]                       integral       8     'h30                                               
-    [37]                       integral       8     'hc2                                               
+    [9]                        integral       8     'he2                                               
+    [10]                       integral       8     'h4d                                               
+    [11]                       integral       8     'h45                                               
+    [12]                       integral       8     'hcb                                               
+    [13]                       integral       8     'hc1                                               
   parity                       integral       8     'b0                                                
   parity_type                  parity_type_e  1     GOOD_PARITY                                        
-  packet_delay                 integral       32    'ha                                                
+  packet_delay                 integral       32    'h3                                                
   begin_time                   time           64    40                                                 
   depth                        int            32    'd2                                                
   parent sequence (name)       string         14    yapp_5_packets                                     
@@ -555,4 +828,4 @@ UVM_FATAL :    0
 Simulation complete via $finish(1) at time 50 NS + 49
 /home/cc/mnt/XCELIUM2309/tools/methodology/UVM/CDNS-1.1d/sv/src/base/uvm_root.svh:457     $finish;
 xcelium> exit
-TOOL:	xrun(64)	23.09-s006: Exiting on Jun 26, 2025 at 09:21:42 PKT  (total: 00:00:04)
+TOOL:	xrun(64)	23.09-s006: Exiting on Jun 26, 2025 at 16:53:28 PKT  (total: 00:00:01)

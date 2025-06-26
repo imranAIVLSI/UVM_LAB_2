@@ -14,6 +14,6 @@
 // ../sv/yapp_packet.sv
 top.sv
 +UVM_TESTNAME=set_config_test
-+UVM_VERBOSITY=UVM_LOW
++UVM_VERBOSITY=UVM_HIGH
 //*** add compile files here
 

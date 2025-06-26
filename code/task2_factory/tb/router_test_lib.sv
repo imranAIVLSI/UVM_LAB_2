@@ -17,6 +17,7 @@ class base_test extends uvm_test;
     endfunction
 
     function void check_phase(uvm_phase phase);
+        super.connect_phase(phase);
         check_config_usage();
     endfunction
 
@@ -44,7 +45,7 @@ class short_packet_test extends base_test;
     endfunction
 
     function void build_phase(uvm_phase phase);
-
+        
         set_type_override_by_type(yapp_packet::get_type(), short_yapp_packet::get_type());
         super.build_phase(phase);
     endfunction
@@ -60,7 +61,7 @@ class set_config_test extends base_test;
     endfunction
 
     function void build_phase(uvm_phase phase);
-        uvm_config_db#(uvm_active_passive_enum)::set(this,"YAPP.agent", "is_active", UVM_PASSIVE);
+        // uvm_config_int::set(this,"tb.YAPP.agent", "is_active", UVM_PASSIVE);
         super.build_phase(phase);
     endfunction
 endclass: set_config_test
